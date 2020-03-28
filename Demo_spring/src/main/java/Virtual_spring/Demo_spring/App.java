@@ -11,7 +11,6 @@ public class App
     public static void main( String[] args )
     {
     	 ApplicationContext context=new AnnotationConfigApplicationContext(TrainerConfig.class);
-         
          Trainee trainee=(Trainee) context.getBean("trainee");
          trainee.display();
     }
