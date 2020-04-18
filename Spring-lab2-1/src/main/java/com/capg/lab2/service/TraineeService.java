@@ -1,4 +1,4 @@
-package com.springlab2.demo.service;
+package com.capg.lab2.service;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.springlab2.demo.models.Trainee;
-import com.springlab2.demo.repository.TraineeDaoInterface;
+import com.capg.lab2.models.Trainee;
+import com.capg.lab2.repository.TraineeDaoInterface;
 
 @Service
 public class TraineeService{

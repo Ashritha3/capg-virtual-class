@@ -1,4 +1,4 @@
-package com.springlab2.demo.controllers;
+package com.capg.lab2.controllers;
 
 import java.util.List;
 
@@ -19,9 +19,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.springlab2.demo.models.Trainee;
-import com.springlab2.demo.repository.TraineeDaoInterface;
-import com.springlab2.demo.service.TraineeService;
+import com.capg.lab2.models.Trainee;
+import com.capg.lab2.repository.TraineeDaoInterface;
+import com.capg.lab2.service.TraineeService;
 
 @Controller
 public class TraineeManagementController {

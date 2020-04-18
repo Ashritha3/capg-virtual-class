@@ -1,4 +1,4 @@
-package com.springlab2.demo.models;
+package com.capg.lab2.models;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
